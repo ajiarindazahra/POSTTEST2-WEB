@@ -1,0 +1,65 @@
+/* css buat beranda */
+main{
+    background-color: #f6f0eb;
+    padding-top: 0;
+    
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#welcome img { 
+
+    padding-top: 20px;
+    padding-bottom: 30px;
+    top: 0;
+}
+
+#welcome{
+    
+    font-size: xx-large;
+    display: flex;
+    padding-left: 70px;
+    color: #efe7e0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.tulisanwelcome {
+
+    padding-top: 100px;
+    padding-right:0 ;
+    padding-left: 30px;
+}
+
+#bestseller {
+
+    background: linear-gradient(to bottom, #f6f0eb,#e6d7ca,#f6f0eb);
+    padding-top: 30px;
+    
+}
+
+#bestseller h2 {
+
+    padding-top: 20px;
+    font-size: xx-large;
+    transform: translate(0%,-50%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #c49063;
+}
+
+.imgbestseller {
+
+    padding-top: 0;
+    padding-bottom: 10px;
+
+}
+
+#waiter {
+    padding-top: 10px;
+    background-color: #e6d7ca;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #c49063;
+
+}

@@ -1,0 +1,60 @@
+body {
+  background: linear-gradient(to bottom, #f6f0eb,#e6d7ca,#f6f0eb);
+}
+
+form {
+  background-color: #ffffff;
+  width: 500px;
+  margin: auto;
+  border: 1px solid #5b4300;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding-right: -30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+button[type=submit] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button[type=submit]:hover {
+  background-color: #45a049;
+}
+
+p {
+  color: #007bff; /* warna teks link */
+  text-decoration: none; /* menghilangkan garis bawah pada teks link */
+  text-align: center;
+  padding-top: -30px;
+}
+
+p:hover {
+  text-decoration: underline; /* menambahkan garis bawah pada teks link ketika cursor diarahkan ke link tersebut */
+}
+
+p:visited {
+  color: #6600cc; /* warna teks link setelah dikunjungi */
+}

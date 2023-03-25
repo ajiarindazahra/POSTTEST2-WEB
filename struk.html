@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struk</title>
+    <link rel="stylesheet" href="struk.css">
+</head>
+<body>
+    <div class = "receipt" id="data">
+        <h2> STRUK PEMESANAN</h2>
+        <br/>
+        <hr>
+        <script>
+
+            const storageKey = "form_pemesanan";
+        
+            const data = JSON.parse (sessionStorage.getItem(storageKey));
+        
+            const container = document.getElementById ('data');
+            const ul = document.createElement ('ul');
+        
+            data.forEach((e) => {
+        
+                const li = document.createElement ('li');
+                li.innerHTML = `
+        
+                <p>Nama:</p> ${e.namapemesan}<br>
+                <p>Gender:</p> ${e.gender}<br>
+                <p>Status:</p> ${e.status.join(', ')}<br>
+                <p>Email:</p> ${e.emailpemesan}<br>
+                <p>Telepon:</p> ${e.teleponpemesan}<br>
+                <p>Tanggal:</p> ${e.tanggalpemesan}<br>
+                <p>Waktu:</p> ${e.waktupemesanan}<br>
+                <p>Jumlah Tamu:</p> ${e.jumlah_tamu}<br>
+                <p>Ruangan:</p> ${e.Ruangan}<br>
+                <p>Keterangan:</p> ${e.keterangan}<br>
+            `;
+            ul.appendChild(li);
+            });
+            
+            container.appendChild(ul);
+        
+        </script>
+        
+        <hr>
+        
+    </div>
+</body>
+</html>

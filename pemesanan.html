@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nawoo Cat Caffe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pemesanan.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="beranda.html"><img src="LOGO.png" width="8%"></a>
+        <p>Nawo Cat Cafe</p>
+    </header>
+
+    <nav style="text-align: right;">
+
+        <a href="tentangkami.html">Tentang Kami</a>
+        <a href="menu.html">Menu</a>
+        <a href="pemesanan.html" style="color: rgb(255, 255, 255);" >Pemesanan</a>
+
+    </nav>
+
+    <main>
+        <h1>Reservasi Tempat</h1>
+
+        <form action="proses-reservasi.php" method="post" id="form_pemesanan">
+
+            <!-- nama -->
+            <label for="nama">Nama Lengkap:</label><br>
+            <input type="text" id="namapemesan"><br>
+
+
+            <label for="gender">Gender : </label> 
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female"> Female
+            <br/>
+
+            <!-- checkbox -->
+            <label for="status">Status :</label>
+            <div class = "statusnya">
+                <input type="checkbox" id ="student" name="status"/> Student
+                <input type="checkbox" id ="worker" name="status"/> Worker
+                <input type="checkbox" id = "nonworker" name="status" /> non-worker
+            </div>
+            <br/> 
+
+            <!-- email -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="emailpemesan" ><br>
+
+            <!-- telepon -->
+            <label for="telepon">Nomor Telepon:</label><br>
+            <input type="tel" id="teleponpemesan"><br>
+
+            <!-- tanggal -->
+            <label for="tanggal">Tanggal:</label><br>
+            <input type="date" id="tanggalpemesan" name="tanggal"><br>
+
+            <!-- waktu -->
+            <label for="waktu">Waktu:</label><br>
+            <input type="time" id="waktupemesan" name="waktu"><br>
+
+            <!-- jumlah tamu -->
+            <label for="jumlah-tamu">Jumlah Tamu:</label><br>
+            <input type="number" id="jumlah_tamu" min="1" max="10"><br>
+
+            <label for="Ruangan">Ruangan:</label>
+            <select id="Ruangan" name="Ruangan">
+                <option value="room1">Room 1</option>
+                <option value="room2">Room 2</option>
+                <option value="room3">Room 3</option>
+                <option value="room4">Room 4</option>
+            </select>
+
+
+            <!-- keterangan -->
+            <label for="keterangan">Keterangan:</label><br>
+            <textarea id="keterangan" name="keterangan" rows="5" cols="30"></textarea><br>
+
+            <button type="submit" id="pesan"> PESAN</button>
+        </form>
+
+    </main>
+    
+    <footer>
+        <p>
+           2023 Copyright ANCF
+        </p>
+        <P>
+            Support by TUPRAK
+        </P>
+    </footer>
+</body>
+<script src="pemesanan.js"></script>
+</html>

@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #f6f0eb,#e6d7ca,#f6f0eb);
+}
+.receipt {
+  border: 1px solid #ccc;
+  box-shadow: #ccc;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  width: 200px;
+  height: 1000px;
+  background-color: #ffffff;
+}
+
+.receipt h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.receipt p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.receipt .price {
+  float: right;
+}
+
+.receipt .total {
+  font-weight: bold;
+  margin-top: 10px;
+}

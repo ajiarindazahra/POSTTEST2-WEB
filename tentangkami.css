@@ -1,0 +1,144 @@
+main{
+    background: linear-gradient(to bottom, #f6f0eb,#e6d7ca);
+
+}
+
+.sejarah {
+
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+
+}
+  
+.sejarah h1 {
+    font-size: 32px;
+    margin-top: 20px;
+    padding-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #c49063;
+
+}
+ 
+  
+.sejarah p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #936033;
+
+
+}
+  
+.sejarah img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sejarahdicina {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #c49063;
+
+}
+
+.sejarahsejarah {
+    display: flex;
+    padding-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #c49063;
+
+}
+
+
+.karyawan {
+    padding-top: 20px;
+    background-color: #e4cfbd;
+    top: 10px;
+}
+  
+.karyawan h1 {
+
+    text-align: center;
+    font-size: 45px;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #c49063;
+
+}
+  
+.karyawan ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #c49063;
+
+}
+  
+.karyawan li {
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #c49063;
+
+}
+
+.karyawan img {
+    width: 400px;
+    margin-right: 20px;
+}
+  
+.karyawan  h2 {
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #c49063;
+
+}
+  
+.karyawan p {
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #936033;
+
+}
+
+.interior {
+
+    background-color: #e4cfbd;
+}
+.interior h1 {
+
+    text-align: center;
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #936033;
+   
+
+}
+
+.interior img {
+    align-items: center;
+    width: 300px;
+    padding-left: 30px;
+    padding-right: 30px;    
+    padding-bottom: 20px;
+}
+
+ 
+  
